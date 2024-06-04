@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio botoes</title>
     <style>
-        
+    body{font: 12pt Arial;}
+    button{font-size: 12pt; padding: 30px;}
     </style>
 </head>
 <body>
     <h1>DESAFIO DOS BOTÔES</h1>
-    <button onclick="">BOTÂO 1</button>
-    <button onclick="">BOTÂO 2</button>
-    <button onclick="">BOTÂO 3</button>
+    <button onclick="um()">BOTÂO 1</button>
+    <button onclick="dois()">BOTÂO 2</button>
+    <button onclick="tres()">BOTÂO 3</button>
+    <script>
+    function um(){window.alert(`Clicou no botão 1`)}
+    function dois(){window.alert(`Clicou no botão 2`)}
+    function tres(){window.alert(`Clicou no botão 3`)}    
+    </script>
 </body>
 </html>
